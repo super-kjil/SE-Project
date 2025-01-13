@@ -1,0 +1,11 @@
+Error
+Error: Access denied for user 'root'@'localhost' (using password: YES)
+Error: Access denied for user 'root'@'localhost' (using password: YES)
+Error: Access denied for user 'root'@'localhost' (using password: YES)
+Error: Access denied for user 'root'@'localhost' (using password: YES)
+ReferenceError: getPermissionByUser is not defined
+ReferenceError: getPermissionByUser is not defined
+ReferenceError: getPermissionByUser is not defined
+ReferenceError: getPermissionByUser is not defined
+ReferenceError: getPermissionByUser is not defined
+ReferenceError: getPermissionByUser is not defined

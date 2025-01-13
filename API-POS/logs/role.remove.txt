@@ -1,0 +1,1 @@
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role_id`) REFERENCES `role` (`id`))

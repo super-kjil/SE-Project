@@ -1,0 +1,178 @@
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'product pINNER JOIN category c ON p.category_id = c.id' at line 1
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'quey')
+TypeError: Cannot read properties of undefined (reading 'query')
+TypeError: Cannot read properties of undefined (reading 'query')
+TypeError: Cannot read properties of undefined (reading 'query')
+TypeError: Cannot read properties of undefined (reading 'query')
+TypeError: Cannot read properties of undefined (reading 'query')
+TypeError: Cannot read properties of undefined (reading 'query')
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+ReferenceError: category_id is not defined
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p.brand = 'Dell'' at line 12
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p.brand = 'Dell'' at line 12
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p.brand = 'Dell'' at line 12
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p.brand = 'Dell'' at line 12
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p.brand = 'Dell'' at line 12
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p.brand = 'Dell'' at line 12
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p.brand = 'Dell'' at line 12
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'p.brand = 'Dell'' at line 12
+Error
+Error
+Error
+Error

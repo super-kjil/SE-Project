@@ -1,0 +1,72 @@
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+ReferenceError: isExistBarcode is not defined
+ReferenceError: isExistBarcode is not defined
+ReferenceError: isExistBarcode is not defined
+ReferenceError: isExistBarcode is not defined
+ReferenceError: isExistBarcode is not defined
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Incorrect decimal value: 'undefined' for column 'discount' at row 1
+Error: Duplicate entry 'P001' for key 'product.p_barcode'
+Error: Incorrect decimal value: 'undefined' for column `pos-db`.`product`.`discount` at row 1
+Error: Incorrect decimal value: 'undefined' for column `pos-db`.`product`.`discount` at row 1
+Error: Incorrect decimal value: 'undefined' for column `pos-db`.`product`.`discount` at row 1

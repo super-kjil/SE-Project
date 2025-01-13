@@ -1,0 +1,2 @@
+Error: Column 'ref_no' cannot be null
+Error: Column 'ref_no' cannot be null

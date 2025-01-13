@@ -1,0 +1,29 @@
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Out of range value for column 'discount' at row 1
+Error: Incorrect integer value: 'undefined' for column 'qty' at row 1
+Error: Incorrect integer value: 'undefined' for column 'qty' at row 1
+TypeError: Cannot read properties of undefined (reading '0')
+TypeError: Cannot read properties of undefined (reading '0')
+TypeError: Cannot read properties of undefined (reading '0')

@@ -1,0 +1,1 @@
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))

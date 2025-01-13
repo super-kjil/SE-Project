@@ -1,0 +1,3 @@
+Error: Unknown column 'u.role_id' in 'on clause'
+Error: Unknown column 'email' in 'where clause'
+ReferenceError: alert is not defined

@@ -1,0 +1,23 @@
+Error
+Error
+Error
+Error
+Error
+Error
+Error
+Error
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM product WHERE id = 29' at line 1
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`restaurantdb`.`product_image`, CONSTRAINT `product_image_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order), 9, '0')) as order_no' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order), 9, '0')) as order_no' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order), 9, '0')) as order_no' at line 1
