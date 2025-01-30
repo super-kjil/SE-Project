@@ -203,7 +203,7 @@ exports.remove = async (req, res) => {
   }
 };
 
-exports.validate_token = () => {
+exports.validate_token = (permission_name) => {
   // call in midleware in route (role route, user route, teacher route)
   return (req, res, next) => {
     var authorization = req.headers.authorization; // token from client
@@ -227,6 +227,18 @@ exports.validate_token = () => {
               error: error,
             });
           } else {
+            if (permission_name) {
+              let findIndex = result.data.permission?.findIndex(
+                (item) => item.name == permission_name
+              );
+              if (findIndex == -1) {
+                res.status(401).send({
+                  message: "Unauthorized",
+                  error: error,
+                });
+                return;
+              }
+            }
             req.current_id = result.data.profile.id;
             req.auth = result.data.profile; // write user property
             req.permission = result.data.permission; // write user property

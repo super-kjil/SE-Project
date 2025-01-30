@@ -41,7 +41,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="bg-slate-600 overflow-hidden flex justify-center items-center">
+      <div className="bg-white overflow-hidden flex justify-center items-center">
         {/* <div className="max-w-5xl h-auto"> */}
         <div className="relative max-w-5xl h-auto px-10 lg:px-0">
           {/* Carousel Image */}

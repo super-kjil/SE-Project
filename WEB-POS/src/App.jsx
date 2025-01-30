@@ -18,22 +18,24 @@ import OrderPage from "../src/AdminPage/page/order/OrderPage";
 import SettingPage from "../src/AdminPage/page/setting/SettingPage";
 import HomePageClient from "./ClientPage/HomePageClient";
 import MainLayoutKitchen from "./component/layout/MainLayoutKitchen";
-import HomePageKitchen from "./KitchenPage/HomePageKitchen";
 import SignUpPage from "./AdminPage/page/auth/SignUpPage";
 import SignInPage from "./AdminPage/page/auth/SignInPage";
 import RegisterPage from "./AdminPage/page/auth/RegisterPage";
 import LoginPage from "./AdminPage/page/auth/LoginPage";
+import ProfileSetting from "./ClientPage/ProfileSetting";
+import HomePageKitchen from "./KitchenPage/HomePageKitchen";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter
+      future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
+    >
       <Routes>
-        <Route element={<MainLayoutClient />}>
-          <Route path="/home" element={<HomePageClient />} />
-        </Route>
-        <Route element={<MainLayoutKitchen />}>
-          <Route path="/kitchen" element={<HomePageKitchen />} />
-        </Route>
+        <Route element={<MainLayoutClient />}></Route>
+        <Route element={<MainLayoutKitchen />}></Route>
+        <Route path="/home" element={<HomePageClient />} />
+        <Route path="/kitchen" element={<HomePageKitchen />} />
+        <Route path="/profile_setting" element={<ProfileSetting />} />
         <Route element={<MainLayout />}>
           <Route path="/dashboard" element={<HomePage />} />
           <Route path="/pos" element={<PosPage />} />

@@ -1,62 +1,34 @@
 const express = require("express");
 const cors = require("cors");
+const { createServer } = require("http");
+const { Server } = require("socket.io");
+
 const app = express();
+const httpServer = createServer(app);
+const io = new Server(httpServer, { cors: { origin: "*" } });
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({ origin: "*" }));
 
-app.get("/", (req, res) => {
-  const list = [
-    { id: 1, name: "a" },
-    { id: 2, name: "b" },
-  ];
-  res.json({
-    list,
+io.on("connection", (socket) => {
+  console.log("a user connected");
+
+  socket.on("placeOrder", (orderDetails) => {
+    io.emit("newOrder", orderDetails); // Broadcast the new order to all clients
+  });
+
+  // Listen for the order alert event
+  socket.on("orderAlert", (message) => {
+    io.emit("orderAlert", message); // Broadcast the alert message to all clients
+  });
+
+  socket.on("disconnect", () => {
+    console.log("a user disconnected");
   });
 });
 
-app.get("/api/home", (req, res) => {
-  const data = [
-    {
-      title: "Customer",
-      obj: {
-        total: 100,
-        totla_m: 50,
-        total_f: 50,
-      },
-    },
-    {
-      title: "Sale",
-      obj: {
-        total: 1000,
-        due: 100,
-      },
-    },
-    {
-      title: "Expense",
-      obj: {
-        total: 1000,
-      },
-    },
-    {
-      title: "Employe",
-      obj: {
-        total: 1000,
-      },
-    },
-    {
-      title: "Purchase",
-      obj: {
-        total: 1000,
-      },
-    },
-  ];
-  res.json({
-    list: data,
-  });
-});
-
+///// Other routes and server setup...
 require("./src/route/category.route")(app);
 require("./src/route/auth.route")(app);
 require("./src/route/role.route")(app);
@@ -68,9 +40,44 @@ require("./src/route/employee.route")(app);
 require("./src/route/expense.route")(app);
 require("./src/route/order.route")(app);
 require("./src/route/dashboard.route")(app);
-// require("./src/route/auth.client.route")(app);
 
 const PORT = 8081;
-app.listen(PORT, () => {
-  console.log("http://localhost:" + PORT);
+httpServer.listen(PORT, () => {
+  console.log(`http://localhost:${PORT}`);
 });
+
+// const express = require("express");
+// const cors = require("cors");
+// const { createServer } = require("http");
+// const { Server } = require("socket.io");
+
+// const app = express();
+// const httpServer = createServer(app);
+// const io = new Server(httpServer, { cors: { origin: "*" } });
+
+// app.use(express.json());
+// app.use(express.urlencoded({ extended: false }));
+// app.use(cors({ origin: "*" }));
+
+// io.on("connection", (socket) => {
+//   socket.on("newOrderAlert", (orderDetails) => {
+//     io.emit("orderReceived", orderDetails);
+//   });
+// });
+
+// require("./src/route/category.route")(app);
+// require("./src/route/auth.route")(app);
+// require("./src/route/role.route")(app);
+// require("./src/route/supplier.route")(app);
+// require("./src/route/config.route")(app);
+// require("./src/route/product.route")(app);
+// require("./src/route/customer.route")(app);
+// require("./src/route/employee.route")(app);
+// require("./src/route/expense.route")(app);
+// require("./src/route/order.route")(app);
+// require("./src/route/dashboard.route")(app);
+
+// const PORT = 8081;
+// httpServer.listen(PORT, () => {
+//   console.log(`http://localhost:${PORT}`);
+// });

@@ -255,59 +255,119 @@ function MainLayoutClient() {
       icon: <IoLogOut />,
     },
   ];
-  const handleOrder = async () => {
-    var order_details = [];
-    cart.forEach((item) => {
-      var total = Number(item.cart_qty) * Number(item.price);
-      if (item.discount != null && item.discount != 0) {
-        total = total - (total * Number(item.discount)) / 100;
-      }
-      var objItem = {
-        product_id: item.id,
-        qty: Number(item.cart_qty),
-        price: Number(item.price),
-        discount: Number(item.discount),
-        total: total,
-      };
-      order_details.push(objItem);
-    });
+  // const handleOrder = async () => {
+  //   var order_details = [];
+  //   cart.forEach((item) => {
+  //     var total = Number(item.cart_qty) * Number(item.price);
+  //     if (item.discount != null && item.discount != 0) {
+  //       total = total - (total * Number(item.discount)) / 100;
+  //     }
+  //     var objItem = {
+  //       product_id: item.id,
+  //       qty: Number(item.cart_qty),
+  //       price: Number(item.price),
+  //       discount: Number(item.discount),
+  //       total: total,
+  //     };
+  //     order_details.push(objItem);
+  //   });
 
-    var param = {
+  //   var param = {
+  //     order: {
+  //       // customer_id: objSummary.customer_id,
+  //       total_amount: objSummary.total,
+  //       paid_amount: objSummary.total,
+  //       // payment_method: objSummary.payment_method,
+  //       // remark: objSummary.remark,
+  //     },
+  //     order_details: order_details,
+  //   };
+
+  //   const res = await request("order", "post", param);
+  //   if (res && !res.error) {
+  //     if (res.order) {
+  //       message.success("Order created successfully!");
+  //       // Update global state with the order details
+  //       useCartStore.getState().setLastOrder(order_details); // Update lastOrder in the store
+  //       clearCart(); // Clear the cart after placing the order
+  //     }
+  //   } else {
+  //     message.error("Order not complete!");
+  //   }
+  // };
+
+  // const handleOrder = async () => {
+  //   const orderDetails = cart.map((item) => ({
+  //     product_id: item.id,
+  //     qty: item.cart_qty,
+  //     price: item.price,
+  //     discount: item.discount,
+  //   }));
+
+  //   const param = {
+  //     order: {
+  //       total_amount: cart.reduce(
+  //         (sum, item) => sum + item.cart_qty * item.price,
+  //         0
+  //       ),
+  //     },
+  //     order_details: orderDetails,
+  //   };
+
+  //   const res = await request("order", "post", param);
+  //   if (res && !res.error) {
+  //     message.success("Order created successfully!");
+  //     socket.emit("placeOrder", orderDetails);
+  //     setCart([]);
+  //   }
+  //   // else {
+  //   //   message.error("Order not complete!");
+  //   // }
+  // };
+
+  const handleOrder = async () => {
+    const orderDetails = cart.map((item) => ({
+      product_id: item.id,
+      qty: item.cart_qty,
+      price: item.price,
+      discount: item.discount,
+      total: item.cart_qty * item.price,
+    }));
+
+    const param = {
       order: {
-        // customer_id: objSummary.customer_id,
-        total_amount: objSummary.total,
-        paid_amount: objSummary.total,
-        // payment_method: objSummary.payment_method,
-        // remark: objSummary.remark,
+        customer_id: 1, // Example value, replace with actual customer ID
+        total_amount: cart.reduce(
+          (sum, item) => sum + item.cart_qty * item.price,
+          0
+        ),
+        paid_amount: cart.reduce(
+          (sum, item) => sum + item.cart_qty * item.price,
+          0
+        ), // Set `paid_amount` equal to `total_amount` if no discounts apply
+        payment_method: cart.reduce(
+          (sum, item) => sum + item.cart_qty * item.price,
+          "Cash"
+        ),
       },
-      order_details: order_details,
+      order_details: orderDetails,
     };
 
     const res = await request("order", "post", param);
     if (res && !res.error) {
-      if (res.order) {
-        message.success("Order created successfully!");
-        // Update global state with the order details
-        useCartStore.getState().setLastOrder(order_details); // Update lastOrder in the store
-        clearCart(); // Clear the cart after placing the order
-      }
+      message.success("Order created successfully!");
+      socket.emit("placeOrder", orderDetails);
+      setCart([]); // Clear the cart
     } else {
       message.error("Order not complete!");
     }
   };
+
   const onLoginOut = () => {
     setCustomerProfile("");
     setAcccessToken("");
     navigate("/login");
   };
-
-  // const handleOpenProfileModal = () => {
-  //   setState((p) => ({
-  //     ...p,
-  //     visibleModalProfile: true,
-  //   }));
-  // };
-
   // Drawer component
   const [open, setOpen] = useState(false);
   const showDrawer = (item) => {
@@ -566,22 +626,6 @@ function MainLayoutClient() {
           </Form.Item>
         </Form>
       </Drawer>
-      {/* <Modal
-        open={state.visibleModalProfile}
-        onCancel={onCloseModalProfile}
-        footer={null}
-      >
-        <div>
-          <div>{customerProfile?.name}</div>
-          <div>{customerProfile?.username}</div>
-        </div>
-        <Form layout="vertical" onFinish={onFinish}>
-          <Form.Item>
-            name={"name"}
-            label
-          </Form.Item>
-        </Form>
-      </Modal> */}
       <Modal
         open={state.visibleModalProfile}
         title={"User Info"}

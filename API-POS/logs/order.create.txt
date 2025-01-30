@@ -17,3 +17,9 @@ Error: Column 'payment_method' cannot be null
 Error: Column 'payment_method' cannot be null
 Error: Column 'payment_method' cannot be null
 Error: Column 'payment_method' cannot be null
+Error: Column 'paid_amount' cannot be null
+Error: Column 'paid_amount' cannot be null
+Error: Column 'paid_amount' cannot be null
+Error: Column 'paid_amount' cannot be null
+Error: Column 'paid_amount' cannot be null
+Error: Column 'payment_method' cannot be null

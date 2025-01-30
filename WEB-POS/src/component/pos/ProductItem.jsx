@@ -1,18 +1,19 @@
-import { Button, Col, Image } from "antd";
+import { Button } from "antd";
 import React from "react";
 import { Config } from "../../util/config";
 import { FaCartShopping } from "react-icons/fa6";
+import { FiHeart } from "react-icons/fi";
 
 function ProductItem({
   name,
   description,
   image,
   category_name,
-  brand,
   price,
   discount,
   barcode,
   handleAdd,
+  handleFav,
 }) {
   var final_price = price;
   if (discount != 0 && discount != null) {
@@ -22,7 +23,12 @@ function ProductItem({
   return (
     <>
       {/* <div className="overflow-y-scroll scrollbar"></div> */}
-      <div className="p-3 rounded-xl bg-white shadow-lg overflow-y-scroll scrollbar ">
+      <div className="p-3 rounded-xl bg-white shadow-lg">
+        <div>
+          <button onClick={handleFav} className="text-lg float-right">
+            <FiHeart />
+          </button>
+        </div>
         <img src={Config.image_path + image} alt={name} className="sm:w-8/12" />
         <div className="xl:font-bold xl:text-lg xl:truncate-text  xs:font-bold xs:text-[10px] x">
           {name}

@@ -15,7 +15,90 @@ export const configStore = create((set) => ({
     set(() => ({
       config: params,
     })),
+  pendingOrders: [],
+  setConfig: (params) => set({ config: params }),
+  addPendingOrder: (order) =>
+    set((state) => ({
+      pendingOrders: [...state.pendingOrders, order],
+    })),
+  removePendingOrder: (orderId) =>
+    set((state) => ({
+      pendingOrders: state.pendingOrders.filter((o) => o.id !== orderId),
+    })),
 }));
+
+// Favourite Item Store
+// export const useItemFav = create((set) => ({
+//   cart: [],
+
+//   // Load cart from localStorage
+//   loadItemFav: () => {
+//     const itemFav = localStorage.getItem("fav_list");
+//     return set(() => ({
+//       cart: itemFav ? JSON.parse(itemFav) : [],
+//     }));
+//   },
+//   addToFav: (item) =>
+//     set((state) => {
+//       const cart = [...state.cart]; // Copy the current cart state
+//       const findIndex = cart.findIndex((row) => row.barcode === item.barcode); // Check if the item is already in the cart
+//       let isNoStock = false;
+
+//       if (findIndex === -1) {
+//         // Item not in cart
+//         if (item.qty > 0) {
+//           cart.push({ ...item, cart_qty: 1 }); // Add the item to the cart with initial quantity
+//         } else {
+//           isNoStock = true; // No stock available
+//         }
+//       } else {
+//         // Item already in cart
+//         cart[findIndex].cart_qty += 1; // Increment the quantity
+//         if (item.qty < cart[findIndex].cart_qty) {
+//           isNoStock = true; // Check if the requested quantity exceeds stock
+//         }
+//       }
+
+//       // Update cart in localStorage
+//       localStorage.setItem("fav_list", JSON.stringify(cart));
+
+//       // Update state with the modified cart
+//       return { cart };
+//     }),
+//   // New method to set the last order
+//   setLastOrder: (order) => set({ lastOrder: order }), // Update lastOrder
+
+//   // Clear the cart
+//   clearCart: () =>
+//     set(() => {
+//       localStorage.removeItem("cart_list");
+//       return { cart: [] };
+//     }),
+
+//   // Decrease item quantity
+//   decreaseQuantity: (barcode) =>
+//     set((state) => {
+//       const cart = [...state.cart];
+//       const itemIndex = cart.findIndex((item) => item.barcode === barcode);
+//       if (itemIndex !== -1 && cart[itemIndex].cart_qty > 1) {
+//         cart[itemIndex].cart_qty -= 1;
+//       }
+//       localStorage.setItem("cart_list", JSON.stringify(cart));
+//       return { cart };
+//     }),
+
+//   removeFromCart: (barcode) =>
+//     set((state) => {
+//       // Filter the cart to exclude the item with the specified barcode
+//       const updatedCart = state.cart.filter((item) => item.barcode !== barcode);
+
+//       // Update localStorage with the modified cart
+//       localStorage.setItem("home_cart_list", JSON.stringify(updatedCart));
+
+//       // Return a new state with the updated cart
+//       return { cart: [...updatedCart] }; // Spread operator ensures a new array reference
+//     }),
+// }));
 
 // Cart Store
 export const useCartStore = create((set) => ({
@@ -28,7 +111,6 @@ export const useCartStore = create((set) => ({
       cart: savedCart ? JSON.parse(savedCart) : [],
     }));
   },
-
   addToBill: (item) =>
     set((state) => {
       const cart = [...state.cart]; // Copy the current cart state
@@ -106,7 +188,6 @@ export const useCartStore = create((set) => ({
 }));
 
 // Cart Store for Home Page
-
 export const useHomeCartStore = create((set) => ({
   cart: [],
 
@@ -117,7 +198,7 @@ export const useHomeCartStore = create((set) => ({
       cart: savedCart ? JSON.parse(savedCart) : [],
     }));
   },
-
+  // add to cart
   addToCart: (item) =>
     set((state) => {
       const cart = [...state.cart]; // Copy the current cart state

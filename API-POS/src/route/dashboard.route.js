@@ -6,7 +6,7 @@ const {
   remove,
 } = require("../controller/dashboard.controller");
 module.exports = (app) => {
-  app.get("/api/dashboard", validate_token(), getList);
+  app.get("/api/dashboard", validate_token("dashboard.get_list"), getList);
   // app.post("/api/customer", validate_token(), create);
   // app.put("/api/customer", validate_token(), update);
   // app.delete("/api/customer", validate_token(), remove);

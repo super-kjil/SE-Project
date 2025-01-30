@@ -1,15 +1,44 @@
-import React from "react";
-import { useHomeCartStore } from "../store/configStore"; // Ensure this is correctly imported
-import AddedTocart from "../component/clientPage/AddedTocart"; // Ensure this is correctly imported
+import React, { useEffect, useState } from "react";
+import { io } from "socket.io-client";
+import { notification } from "antd"; // Import notification from antd
+
+const socket = io("http://localhost:8081");
 
 function HomePageKitchen() {
-  const { lastOrder } = useHomeCartStore(); // Access the last order from global state
+  const [orders, setOrders] = useState([]);
+
+  useEffect(() => {
+    socket.on("newOrder", (orderDetails) => {
+      setOrders((prevOrders) => [...prevOrders, orderDetails]);
+    });
+
+    socket.on("orderAlert", (message) => {
+      notification.open({
+        message: "New Order Alert",
+        description: message,
+        duration: 2, // Duration for the notification
+      });
+    });
+
+    return () => {
+      socket.off("newOrder");
+      socket.off("orderAlert"); // Clean up the listener
+    };
+  }, []);
 
   return (
     <div>
       <h1>HomePageKitchen</h1>
-      {lastOrder && lastOrder.length > 0 ? (
-        lastOrder.map((item, index) => <AddedTocart key={index} {...item} />)
+      {orders.length > 0 ? (
+        orders.map((order, index) => (
+          <div key={index}>
+            {order.map((item, idx) => (
+              <p key={idx}>
+                {item.product_id} - Qty: {item.qty}
+              </p>
+            ))}
+          </div>
+        ))
       ) : (
         <p>No orders placed yet.</p>
       )}
